@@ -6,6 +6,7 @@
 * {
   font-family: "Lato", sans-serif;
   font-family: "Work Sans", sans-serif;
+  /* margin: 0; */
 }
 
 .btn-primary {
@@ -166,6 +167,10 @@ main {
   font-weight: 600;
 }
 
+.feature-img {
+  height: 100%;
+}
+
 .feature-card-description {
   color: #727272;
   font-weight: 400;
@@ -176,18 +181,24 @@ main {
   background: #ff900e;
   padding: 2.875rem 2.625rem;
   width: 21.375rem;
+  text-align: center;
+  position: relative;
+  bottom: 120px;
+  right: 130px;
 }
 
 .ten-years-badge h2 {
   color: #fff;
   font-size: 4rem;
   font-weight: 700;
+  margin: 0;
 }
 
 .ten-years-badge p {
   color: #fff;
   font-size: 1.5625rem;
   font-weight: 500;
+  margin: 1rem 0;
 }
 
 /* Facts section */
@@ -226,6 +237,23 @@ main {
   gap: 2rem;
 }
 
+/* Footer styles */
+
+footer {
+  max-width: 1440px;
+  margin: 8.125rem auto 6.71875rem auto;
+  text-align: center;
+}
+
+.copyright {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 2.5rem 25.625rem;
+  color: #424242;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 /* Responsive Media Query */
 /* Small devices */
 
@@ -236,6 +264,7 @@ main {
 
   nav,
   .team-container,
+  .features,
   .facts-card-container,
   .sponsor-image-container {
     flex-direction: column;
@@ -253,6 +282,14 @@ main {
     width: 23rem;
   }
 
+  .feature-img img {
+    width: 100%;
+  }
+
+  .ten-years-badge {
+    position: static;
+    max-width: 17.4rem;
+  }
   .facts-card-container {
     padding: 1rem;
     gap: 1rem;
