@@ -290,6 +290,7 @@ footer {
     position: static;
     max-width: 17.4rem;
   }
+
   .facts-card-container {
     padding: 1rem;
     gap: 1rem;
@@ -303,6 +304,10 @@ footer {
   .sponsor-image-container img {
     width: 10.625rem;
   }
+
+  .copyright {
+    padding: 2rem;
+  }
 }
 
 /* Medium devices */
@@ -310,11 +315,21 @@ footer {
 @media screen and (min-width: 576px) and (max-width: 992px) {
   nav,
   .team-container,
+  .features,
   .sponsor-image-container {
     flex-direction: column;
   }
 
+  .ten-years-badge {
+    position: static;
+    max-width: 17.4rem;
+  }
+
   .facts-card-container {
     gap: 1rem;
+  }
+
+  .copyright {
+    padding: 2.5rem;
   }
 }
