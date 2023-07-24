@@ -22,6 +22,13 @@
 .common-description {
   color: #727272;
   margin-bottom: 2rem;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.common-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 /* Header Style */
@@ -75,12 +82,6 @@ nav li a {
   margin-bottom: 50px;
 }
 
-.common-title {
-  color: #131313;
-  font-size: 4rem;
-  font-weight: 700;
-}
-
 .banner img {
   width: 100%;
 }
@@ -128,6 +129,32 @@ main {
   font-size: 2.8rem;
   font-weight: 700;
 }
+
+/* Facts section */
+
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 2.8rem;
+}
+
+.cards-stats {
+  color: #424242;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 0.625rem;
+  margin-bottom: 0.3125rem;
+}
+
+/* .card-title {
+  colo
+} */
 
 /* Responsive Media Query */
 /* Small devices */
