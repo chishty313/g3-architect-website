@@ -320,9 +320,16 @@ footer {
     flex-direction: column;
   }
 
-  .ten-years-badge {
+  /* .ten-years-badge {
     position: static;
     max-width: 17.4rem;
+  } */
+
+  .feature-img {
+    margin-left: 120px;
+  }
+  .ten-years-badge {
+    margin-left: 30px;
   }
 
   .facts-card-container {
